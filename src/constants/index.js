@@ -16,48 +16,23 @@ export const HERO_CONTENT = `Me chamo Felipe Siqueira Santos da Silva, um
  aprender e aplicar novos conhecimentos para
  alcançar soluções eficazes.`;
 
-export const ABOUT_TEXT = ` Me chamo Felipe Siqueira Santos da Silva, um
- entusiasta de tecnologia e inovação com 17 anos de
- idade. Desde cedo, desenvolvi uma forte paixão pela
- programação e pela resolução de desafios
- complexos. Iniciei minha jornada na área de
- desenvolvimento back end na minha primeira
- experiência profissional, onde tive a oportunidade de
- trabalhar com PHP utilizando o framework Laravel.
- Tenho um histórico de enfrentar desafios com
- entusiasmo e determinação, sempre buscando
- aprender e aplicar novos conhecimentos para
- alcançar soluções eficazes.`;
-
+export const ABOUT_TEXT = 'Tenho atuado no mercado de tecnologia desde os 16 anos, acumulando experiência significativa em diversas áreas. Inicialmente, trabalhei com back-end, onde desenvolvi e gerenciei cadastros utilizando Laravel e construí APIs. Esse período foi fundamental para o meu desenvolvimento profissional.Atualmente, atuo como desenvolvedor full stack, tendo trabalhado em projetos utilizando JavaScript com o framework React. Sou apaixonado por aprender novas tecnologias e, ao longo da minha carreira, tive a oportunidade de trabalhar com uma variedade de ferramentas e linguagens, incluindo Python, Vue.js, PHP, MySQL e Docker.Estou sempre em busca de novos desafios e oportunidades para expandir meus conhecimentos e habilidades na área de desenvolvimento.'
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Atualmente",
+    role: "Junior Full Stack Developer",
+    company: "Atacado Vila Nova",
+    description: `Atualmente, estou atuando como estagiário em desenvolvimento, com foco principal na criação e manutenção de APIs e na implementação de funcionalidades de cadastro de usuários , `,
+    technologies: ["Laravel", "Vue.js", "Mysql", "Html", "Css" ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "2023 - 2024",
+    role: "Aprendiz Desenvolvedor Web",
+    company: "Transvilla",
+    description: `Durante essa experiência, desenvolvi habilidades fundamentais em manipulação de dados usando Laravel. Realizei operações de backend e exibi os resultados nas views utilizando HTML e Bootstrap, o que me permitiu criar interfaces de usuário interativas e responsivas.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    
 ];
 
 export const PROJECTS = [
@@ -82,10 +57,11 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information swtsfwtsfwt.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
+
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Poços de Caldas, Brasil, ",
+  phoneNo: "+55 35910171728 ",
+  email: "felipesiquierasantossilva@gmail.com",
 };

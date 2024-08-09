@@ -1,10 +1,16 @@
-import { RiReactjsLine } from "react-icons/ri"; // ícone do React
-import { TbBrandNextjs } from "react-icons/tb"; // ícone do Next.js
-import { SiMongodb } from "react-icons/si"; // ícone do MongoDB
-import { DiRedis } from "react-icons/di"; // ícone do Redis
-import { FaNodeJs } from "react-icons/fa"; // ícone do Node.js
-import { BiLogoPostgresql } from "react-icons/bi"; // ícone do PostgreSQL
 import { motion } from "framer-motion";
+import { SiLaravel } from "react-icons/si"; // Ícone do Laravel
+import { DiDocker } from "react-icons/di"; // Ícone do Docker
+import { SiMysql } from "react-icons/si"; // Ícone do MySQL
+import { RiReactjsLine } from "react-icons/ri"; // Ícone do React
+import { FaVuejs } from "react-icons/fa"; // Ícone do Vue.js
+import { FaPython } from "react-icons/fa"; // Ícone do Python
+import { FaHtml5 } from "react-icons/fa"; // Ícone do HTML
+import { FaCss3Alt } from "react-icons/fa"; // Ícone do CSS
+import { FaBootstrap } from "react-icons/fa"; // Ícone do Bootstrap
+import { SiTailwindcss } from "react-icons/si"; // Ícone do Tailwind CSS
+import { SiJavascript } from "react-icons/si"; // Ícone do JavaScript
+import { SiPhp } from "react-icons/si"; // Ícone do PHP
 
 const Technologies = () => {
   // Variantes para o movimento suave dos ícones
@@ -50,42 +56,84 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <FaHtml5 className="text-7xl text-orange-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(0.2)}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <FaCss3Alt className="text-7xl text-blue-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(0.4)}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500" />
+          <FaBootstrap className="text-7xl text-purple-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(0.6)}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <SiTailwindcss className="text-7xl text-blue-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(0.8)}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <SiJavascript className="text-7xl text-yellow-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.0)}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <SiPhp className="text-7xl text-purple-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.2)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.4)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaVuejs className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.6)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaPython className="text-7xl text-yellow-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.8)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiDocker className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.0)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMysql className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.2)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiLaravel className="text-7xl text-red-600" />
         </motion.div>
       </motion.div>
     </div>

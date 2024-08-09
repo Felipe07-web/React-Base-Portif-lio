@@ -24,7 +24,7 @@ const Experience = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        Experiência
+        experiências
       </motion.h2> 
       <div>
         {EXPERIENCES.map((experience, index) => (

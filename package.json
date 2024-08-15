@@ -1,4 +1,6 @@
 {
+  
+  "homepage": "https://Felipe07-web.github.io/React-Base-Portif-lio",
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +9,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+    
   },
   "dependencies": {
     "framer-motion": "^11.3.24",
